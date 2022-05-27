@@ -2,7 +2,7 @@ require_relative 'player'
 
 class Casino
   def initialize
-    # create person
+    @player = Player.new
     show_menu
   end
 
